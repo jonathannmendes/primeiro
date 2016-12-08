@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo1"
+    android:baselineAligned="true"
+    android:foregroundGravity="fill"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/button"
+        android:background="@drawable/previous"
+        android:nestedScrollingEnabled="false"
+        android:onClick="sair" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/button2"
+        android:layout_marginRight="0dp"
+        android:onClick="tela2"
+        android:background="@drawable/next"
+        android:nestedScrollingEnabled="true"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="174dp"
+        android:layout_height="223dp"
+        android:text="Avance para ir para um site bem lega !!!"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/botao5" />
+
+</LinearLayout>

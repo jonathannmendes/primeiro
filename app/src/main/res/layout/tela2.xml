@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela2">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="SIM"
+        android:id="@+id/sim"
+        android:background="@drawable/aperte"
+        android:onClick="simsite"
+        android:nestedScrollingEnabled="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quer visitar um site ?"
+        android:id="@+id/site"
+        android:background="@drawable/botao5"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Não"
+        android:id="@+id/button"
+        android:background="@drawable/aperte"
+        android:onClick="naosite"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_above="@+id/site"
+        android:layout_alignRight="@+id/site"
+        android:layout_alignEnd="@+id/site"
+        android:layout_marginBottom="41dp" />
+</RelativeLayout>

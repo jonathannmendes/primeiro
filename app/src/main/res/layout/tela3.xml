@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela3">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:text="Aperte para sair."
+        android:id="@+id/show"
+        android:longClickable="false"
+        android:background="@drawable/aperte"
+        android:onClick="vaza"
+        android:nestedScrollingEnabled="true"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/button5"
+        android:background="@drawable/previous"
+        android:onClick="sair3"
+        android:nestedScrollingEnabled="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp" />
+</RelativeLayout>
